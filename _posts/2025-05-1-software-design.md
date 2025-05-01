@@ -1,10 +1,10 @@
 ---
-title: Console Design
+title: Software Design
 subtitle: A custom lighting controller
 layout: post
 ---
 
-# Console Design
+# Software Design
 ---
 ## Recap Design Goals
 In order of importance:
@@ -16,15 +16,12 @@ In order of importance:
 - Hackable (open source, easy to modify)
 - Expandable (fader wing, etc.)
 
-## Software 
-I've come up with a few ideas for the software, and I'll go over them here. 
-
-### Modular Synth
+## The software (Modular Synth)
 Modular synths get a bit of a bad rap, for example, the first image that comes up on google is this abomination:
 ![Modular Synth](https://img.redbull.com/images/c_crop,x_0,y_0,h_1749,w_2624/c_fill,w_1500,h_1000/q_70,f_auto/redbullcom/2019/01/04/b3fce7b3-a7a5-44a4-bc2f-e616b187f70b/richard-devine-modular-synth)
 Which is, safe to say, **not** what I want to go for.
 
-For this system, I'm imagining a modular workspace, based on the raw concept of *Input -> Output*.
+For this system, I'm thinking a modular system, based on the raw concept of *Input -> Output*.
 In short, you have a number of inputs (faders, buttons, sounds, etc.), and a number of outputs (light properties, e.g intensity, color, etc.). 
 
 In between the inputs and outputs, there are a large number of modules, which can be connected together to create a signal chain. For example, you could have a fader, which is connected to a *Math* module, which is connected to the position x output of a fixture. In addition to inputs such as faders, you can also have *LFO* or *MIDI* inputs, and define constant inputs or information about the fixture (e.g, ordered id, fixture type, location, etc.).
