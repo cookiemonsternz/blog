@@ -1,0 +1,124 @@
+.highlight table td {
+  padding: 5px;
+}
+.highlight table pre {
+  margin: 0;
+}
+.highlight,
+.highlight .w {
+  color: #E4E3D3;
+  background-color: #252627;
+}
+.highlight .err {
+  color: #252627;
+  background-color: #1B998B;
+}
+.highlight .c,
+.highlight .ch,
+.highlight .cd,
+.highlight .cm,
+.highlight .cpf,
+.highlight .c1,
+.highlight .cs { // Comments
+  color: #7f848e;
+}
+.highlight .cp { // Preprocessor directive
+  color: #b58900;
+}
+.highlight .nt { // Don't know what this is
+  color: #ff00f2;
+}
+.highlight .o,
+.highlight .ow { // Operators
+  color: #56b6c2;
+}
+.highlight .p,
+.highlight .pi { // Punctuation
+  color: #abb2bf;
+}
+// *** UNUSED ***
+.highlight .gi { // Inserted text
+  color: #ff00d9;
+}
+.highlight .gd { // Deleted text
+  color: #00ff48;
+}
+.highlight .gh { // Highlighted text
+  color: #1B998B;
+  background-color: #252627;
+  font-weight: bold;
+}
+.highlight .ge {
+  font-style: italic;
+}
+.highlight .ges {
+  font-weight: bold;
+  font-style: italic;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .k,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr,
+.highlight .kv {
+  color: #E4E3D3;
+}
+.highlight .kc {
+  color: #1B998B;
+}
+.highlight .kt {
+  color: #1B998B;
+}
+.highlight .kd {
+  color: #1B998B;
+}
+.highlight .s,
+.highlight .sb,
+.highlight .sc,
+.highlight .dl,
+.highlight .sd,
+.highlight .s2,
+.highlight .sh,
+.highlight .sx,
+.highlight .s1 {
+  color: #1B998B;
+}
+.highlight .sa {
+  color: #E4E3D3;
+}
+.highlight .sr {
+  color: #E4E3D3;
+}
+.highlight .si {
+  color: #1B998B;
+}
+.highlight .se {
+  color: #1B998B;
+}
+.highlight .nn {
+  color: #E4E3D3;
+}
+.highlight .nc {
+  color: #E4E3D3;
+}
+.highlight .no {
+  color: #E4E3D3;
+}
+.highlight .na {
+  color: #1B998B;
+}
+.highlight .m,
+.highlight .mb,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .il,
+.highlight .mo,
+.highlight .mx {
+  color: #1B998B;
+}
+.highlight .ss {
+  color: #1B998B;
+}

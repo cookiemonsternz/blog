@@ -1,0 +1,77 @@
+// #252627
+// #1B998B
+// #E4E3D3
+
+* {
+	margin: 0;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #252627;
+    font-family: "Nunito", sans-serif;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    color: #E4E3D3;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    background-color: #252627;
+    padding: 2em 3em;
+}
+
+.content hr {
+    margin: 2em 0;
+}
+
+.content p {
+    margin: 1em 0;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+// **** HEADER ****
+header {
+    background-color: #252627;
+    margin-bottom: 1em;
+    text-align: center;
+    padding: 1em 0;
+    background-size: cover;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #E4E3D3;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #e4e3d3c1;
+    margin: 0;
+}
+
+// **** FOOTER ****
+footer {
+    background-color: #252627;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 1em;
+    margin-top: auto;
+    border-top: 3px solid #808080;
+}
+
+.footer-text {
+    margin-top: 1.0em;
+}

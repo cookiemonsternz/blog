@@ -1,0 +1,11 @@
+<div class="widget">
+    <h3>Recent Posts</h3>
+    <ul>
+        {% for post in site.posts limit: 5 %}
+            <li>
+                <a href="{{ post.url | relative_url }}" class="widget-title">{{ post.title }}</a>
+                <span class="widget-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

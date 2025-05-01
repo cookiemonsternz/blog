@@ -1,0 +1,7 @@
+<footer>
+    {% if page.layout != "post" %}
+        {% include widgets.html %}
+    {% endif %}
+    <p class="footer-text">© {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <p class="footer-text">Powered by <a href="https://cookiemonsternz.github.io/mulid-theme">Mulid Theme</a></p>
+</footer>

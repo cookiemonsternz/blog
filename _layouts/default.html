@@ -1,0 +1,18 @@
+{% include head.html %}
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  </head>
+  <body>
+    <script>
+      const backgroundColor = "{{ page.background_color | default: '#1B998B' }}";
+      const foregroundColor = "{{ page.foreground_color | default: '#E4E3D3' }}";
+    </script>
+    <script src="{{ '/assets/js/background.js' | relative_url }}"></script>
+    {% include header.html %}
+    <div class="content">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
