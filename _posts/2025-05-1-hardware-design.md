@@ -8,7 +8,7 @@ layout: post
 ---
 ## Recap Design Goals
 In order of importance:
-- Price (under 800 USD)
+- Price (under 2000 USD)
 - Can utilise lights fully (e.g, all the features of the fixture, including effects, gobos, etc.)
 - Abstracted (Don't have to think fixture level while performing)
 - Easy to use (1. Performing, 2. Connection (e.g, plug and play w/ dmx and art-net, etc.), 3. Programming)
